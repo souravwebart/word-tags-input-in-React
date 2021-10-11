@@ -50,9 +50,9 @@ function SelectInput() {
                 </div>
                 <select className="form-select1" size="3" aria-label="select example" value={tags} onChange={addTags}>
                     <option value="Child malnutrition" >Child malnutrition</option>
-                    <option value="Child media managment">Child media managment<sub>68</sub></option>
-                    <option value="Child consultant">Child consultant<sub>100</sub></option>
-                    <option value="Children">Children<sub>46</sub></option>
+                    <option value="Child media managment">Child media managment</option>
+                    <option value="Child consultant">Child consultant</option>
+                    <option value="Children">Children</option>
                 </select>
                 <input className="submit"
                     type="submit"
