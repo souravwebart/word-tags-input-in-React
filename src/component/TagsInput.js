@@ -8,8 +8,7 @@ function TagsInput() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        setTags([...tags, event.target.value]);
-        event.target.value = "";
+        
     };
 
     const listTags = (val) => {
