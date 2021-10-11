@@ -103,7 +103,7 @@ input[type="search" i] {
   background: #EBF6FF;
   border-radius: 2px;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 10px !important;
   margin-top: 10px;
 
 }
@@ -202,9 +202,6 @@ select option:checked
     background: linear-gradient(#EBF6FF,#EBF6FF);
     background-color: #EBF6FF !important;
     border: none !important;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 
 }
 .form-select1:hover, 
